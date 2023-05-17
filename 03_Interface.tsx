@@ -63,7 +63,7 @@ interface Benz extends Car {
 interface Toy {
   name: string;
 }
-interface ToyCar extends Car, Toy {
+interface ToyCar extends Car, Toy { //두개 추가도 가능
   price: number;
 }
 const benz: Benz = {
