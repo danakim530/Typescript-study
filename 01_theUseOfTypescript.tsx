@@ -19,4 +19,4 @@ function showItems(arr: number[]) {
   });
 }
 showItems([1, 2, 3]);
-// showItems(1, 2, 3);
+// showItems(1, 2, 3); 안됨. 배열로 보내야함.

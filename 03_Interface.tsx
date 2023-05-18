@@ -7,6 +7,8 @@
 // console.log(user.name) 여기 에러남. object에 특정 속성값에 대한 타입정보가 없어서
 // -> interface 사용해야 함 : Object인데 안에 요소 하나하나 타입 지정해야 할 때!
 
+// interface : Type 묶음
+
 // 예제1)______________________________________________________________
 type Score = 'A' | 'B' | 'C' | 'F';
 interface User {
@@ -63,7 +65,8 @@ interface Benz extends Car {
 interface Toy {
   name: string;
 }
-interface ToyCar extends Car, Toy { //두개 추가도 가능
+interface ToyCar extends Car, Toy {
+  //두개 추가도 가능
   price: number;
 }
 const benz: Benz = {
