@@ -26,3 +26,4 @@ class Car2 {
 const bmw2 = new Car('red');
 
 // 접근 제한자(Access modifier) - public, private, protected
+// .... 클래스 먼저 공부하고 들어야 할듯
