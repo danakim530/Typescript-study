@@ -1,4 +1,5 @@
 // ES6의 클래스가 익숙하다는 가정하에 수업
+// .... 듣다 말았음. 클래스 먼저 공부하고 다시 듣기 
 
 // 예제1
 class Car {
@@ -26,4 +27,3 @@ class Car2 {
 const bmw2 = new Car('red');
 
 // 접근 제한자(Access modifier) - public, private, protected
-// .... 클래스 먼저 공부하고 들어야 할듯
