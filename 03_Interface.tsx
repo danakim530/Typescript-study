@@ -10,6 +10,8 @@
 // interface : Type 묶음
 
 // 예제1)______________________________________________________________
+// type과 interface의 차이?
+// 둘 다 객체의 타입을 정의하는 방법. 대부분은 확장성이 좋은 interface 사용을 권장. 타입이 심플하거나, 절대 변경되지 않는 경우 type을 사용하여 객체의 타입을 정의하기도 함. 확장해야하는 경우 interface는 extends, type은 &연산자를 사용.
 type Score = 'A' | 'B' | 'C' | 'F';
 interface User {
   name: string;
