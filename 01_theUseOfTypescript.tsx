@@ -5,6 +5,8 @@
 // TS(확장자 .ts or .tsx) = Compiler
 // TS 쓰려면, install node.js(npm 사용 위함) + sudo npm install -g typescript 설치
 
+// 타입 스크립트는 let 사용을 지양함. const 사용하기.
+
 // 예제1)___________________________________
 function add(num1: number, num2: number) {
   console.log(num1 + num2);

@@ -70,7 +70,7 @@ const score3: Record<Grade3, Score3> = {
   4: 'D',
 };
 
-//예제2>
+//예제2> 프로퍼티 키 값을 K 타입으로, 값을 T 타입으로 하는 타입을 만들기
 type IFieldValue = {
   name: string;
   value: number;

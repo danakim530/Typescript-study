@@ -1,3 +1,7 @@
+// TS에서 타입을 지정하는 방법 2가지
+// (1) 타입 별칭(TypeAlias)
+// (2) 인터페이스(Interface)
+
 // 이렇게 하면 에러남
 // let user: object;
 // user = {
